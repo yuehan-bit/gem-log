@@ -195,5 +195,5 @@ async def leaderboard(ctx, page: int = 1):
 @bot.event
 async def on_ready():
     print(f"✅ Logged in as {bot.user}")
-
+keep_alive()
 bot.run("MTM2MDQwNDAxMjg1MTAwMzU4Mw.G7enHx.TTsF-xefplL6rzxPvA5teyfkfYL6_rPZuW1f38")
