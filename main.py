@@ -196,4 +196,4 @@ async def leaderboard(ctx, page: int = 1):
 async def on_ready():
     print(f"✅ Logged in as {bot.user}")
 keep_alive()
-bot.run(os.getenv("DISCORD_TOKEN"))
+bot.run(os.getenv("TOKEN"))
